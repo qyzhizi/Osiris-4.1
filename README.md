@@ -9,15 +9,18 @@ iris_osirisv4.1
 <img src="https://raw.githubusercontent.com/qyzhizi/Osiris-4.1/master/image-process/SegmentedImages/0000_000_segm.bmp" width=300/>
 
 - normalized image
+
 <img src="https://raw.githubusercontent.com/qyzhizi/Osiris-4.1/master/image-process/NormalizedImages/0000_000_imno.bmp"/>
+
+- normalized masks
+
+<img src="https://raw.githubusercontent.com/qyzhizi/Osiris-4.1/master/image-process/NormalizedMasks/0000_000_mano.bmp"/>
 
 - marsk
 
   <img src ="https://raw.githubusercontent.com/qyzhizi/Osiris-4.1/master/image-process/Masks/0000_000_mask.bmp" width= 300>
 
-- normalized masks
 
-<img src="https://raw.githubusercontent.com/qyzhizi/Osiris-4.1/master/image-process/NormalizedMasks/0000_000_mano.bmp"/>
 
 - iriscode
 

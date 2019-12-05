@@ -324,6 +324,15 @@ namespace osiris
         cvReleaseImage(&tmp) ;
         cvCircle(mpSegmentedImage,mPupil.getCenter(),mPupil.getRadius(),cvScalar(0,255,0)) ;
         cvCircle(mpSegmentedImage,mIris.getCenter(),mIris.getRadius(),cvScalar(0,255,0)) ;
+        
+        // output the center and the Radius about the cicle
+        // time:2019-11-11
+        std::ofstream out_c;
+        out_c.open("out_put_cicle.txt",std::ios::app);
+        out_c << mIris.getCenter().x << "\t" << mIris.getCenter().y << "\t" << mIris.getRadius() <<"\t";
+        out_c << mPupil.getCenter().x << "\t" << mPupil.getCenter().y << "\t" <<mPupil.getRadius() << "\n";
+        out_c.close();
+
 
     }
 
